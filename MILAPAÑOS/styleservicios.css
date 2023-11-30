@@ -1,0 +1,12 @@
+body {
+  background-color: #ffdd90;
+  background-image: url("https://img.freepik.com/fotos-premium/fondo-colorido-fondo-azul-rosa_605905-749.jpg?size=626&ext=jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+table {
+  margin: 0 auto;
+  boder-collapse: collapse;
+}

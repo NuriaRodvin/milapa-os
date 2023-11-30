@@ -1,0 +1,29 @@
+* Colocar css por etiquetas*/
+        /*p{
+            text-align: justify;
+            color: blue;
+            font-size: 30px;   /*Existen otras medidas: rem - em - %
+        }
+        */
+        /*Aquí estoy colocando css pero por identificador unico - (id)*/ 
+        #parrafo1 {
+  background-color: cadetblue;
+}
+#parrafo2 {
+  color: red;
+  font-size: 20px;
+  text-align: justify;
+}
+#parrafo3 {
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-onda-blanca-suave_52683-55288.jpg?size=626&ext=jpg&ga=GA1.1.1629404021.1701281594&semt=sph);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+body {
+  background-color: #ffdd90;
+  background-image: url("https://img.freepik.com/foto-gratis/texturas-ladrillo-blanco-fondo_74190-4883.jpg?size=626&ext=jpg&ga=GA1.1.1629404021.1701281594&semt=sph");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

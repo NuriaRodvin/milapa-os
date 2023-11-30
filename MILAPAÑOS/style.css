@@ -1,0 +1,176 @@
+header {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+
+  /* Enable flex mode. */
+  display: flex;
+
+  /* Spread out the elements inside the header. */
+  justify-content: space-between;
+
+  /* Align items vertically in the center. */
+  align-items: center;
+
+  ul {
+    list-style-type: none;
+  }
+}
+
+li {
+  float: left;
+  background-color: #f6e3ca;
+  margin-right: 10px;
+  border: #d7c8b6 2px solid;
+}
+
+a {
+  color: black;
+  padding: 0 4px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: white;
+  color: #d7c8b6;
+}
+
+BODY {
+  margin: 0;
+  font-size: 80%;
+  background-color: #f1f1f1;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+select {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+header .logo {
+  color: #f2f2f2;
+  font-size: 50px;
+  line-height: 200px;
+  float: left;
+}
+
+header nav {
+  float: right;
+  line-height: 200px;
+}
+
+header nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+header nav a:hover {
+  background: #f56f3a;
+  border-radius: 50px;
+}
+
+body nav {
+  float: right;
+  line-height: 20px;
+}
+
+body nav a {
+  display: inline-block;
+  color: #0e0101;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+body nav a:hover {
+  background: yellowgreen;
+  border-radius: 50px;
+}
+
+.marco {
+  width: 1000px;
+  margin: 10px auto 10px auto; /* Centrado horizontal */
+}
+
+.cabecera {
+  border: solid orange 1px;
+  padding: 10px;
+  background-image: url("https://img.freepik.com/vector-gratis/vector-fondo-frondoso-azul-blanco_53876-136080.jpg?size=626&ext=jpg&ga=GA1.1.1629404021.1701281594&semt=sph");
+  background-size: cover;
+}
+
+.cuerpo {
+  padding: 10px 0 10px 0;
+  overflow-x: hidden;
+  overflow-y: auto; /* Hace que se ajuste a la columna más alta en ff */
+  height: 100%; /* Hace que se ajuste a la columna más alta  en ie6 */
+}
+
+.columna_derecha {
+  float: right; /* Alineación a la derecha */
+  width: 270px;
+  border: solid lightblue 1px;
+  padding: 10px;
+  background-image: url("https://img.freepik.com/vector-gratis/fondo-acuarela-pintado-mano-diseno-hojas_1048-19186.jpg?w=360&t=st=1701292652~exp=1701293252~hmac=6cc1dd932be9e07cef983d9a6d58dde33bc361a039ff78b84fff23377df412a8");
+  background-size: cover;
+}
+
+.columna_izquierda {
+  float: left; /* Alineación a la izquierda */
+  width: 170px;
+  border: solid lightblue 1px;
+  padding: 10px;
+  background-image: url("https://img.freepik.com/vector-gratis/fondo-acuarela-pintado-mano-diseno-hojas_1048-19186.jpg?w=360&t=st=1701292652~exp=1701293252~hmac=6cc1dd932be9e07cef983d9a6d58dde33bc361a039ff78b84fff23377df412a8");
+  background-size: cover;
+}
+
+.columna_central {
+  margin-left: 200px; /* Espacio para la columna izquierda */
+  margin-right: 300px; /* Espacio para la columna derecha */
+  border: solid navy 1px;
+  padding: 10px;
+  background-image: url("https://img.freepik.com/vector-gratis/fondo-floral-garabato-dibujado-mano_23-2149338326.jpg?w=740&t=st=1701290727~exp=1701291327~hmac=df1330427c20b61061b7fa8b4bb7949627611cf3f626e46b798859c86f900dc8");
+}
+
+.pie {
+  border: solid orange 1px;
+  padding: 10px;
+  text-align: center;
+  font-size: 80%;
+  background-image: url("https://img.freepik.com/vector-gratis/vector-fondo-pantalla-telefono-movil-marco-linea-abstracta-gris_53876-151551.jpg?size=626&ext=jpg&ga=GA1.1.1629404021.1701281594&semt=sph");
+}
+
+.footer {
+  border: #f56f3a;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #f5f5f5;
+}
